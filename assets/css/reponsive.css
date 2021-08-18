@@ -1,0 +1,103 @@
+/* tablet and mobile */
+@media (max-width:63.9375em)  
+{
+    .btn {
+        padding: 15px 16px;
+    }
+
+    .form-control {
+        padding: 15px;
+        font-size :16px;
+    }
+    .social-list {
+        font-size: 48px;
+    }
+    .social-list a{
+        margin: 0 8px;
+    }
+    #footer .copy-right a
+    {
+        padding :12px 0;
+        display:inline-block;
+    }
+    #nav .subnav li
+    {
+        padding: 5px 12px;
+    }
+    .contact-info {
+        line-height:2;
+    }
+    .contact-submit-btn {
+        font-size: 17px;
+    }
+
+}
+/* Tablet */
+@media (max-width:63.9375em) and (min-width:46.25em)
+{
+
+}
+/* Mobile */
+@media (max-width: 46.1875em)
+{
+    #header
+    {
+        overflow: hidden;
+    }
+    #nav
+    {
+        display: block;
+    }
+    #nav > li 
+    {
+        display: block;
+    }
+    #nav > li:first-child
+    {
+        display: inline-block;
+    }
+    #nav .subnav 
+    {
+        background: #333;
+        position:initial ;
+    }
+    #nav li a
+    {
+        padding: 1px 24px;
+    }
+    #nav .subnav a
+    {
+        color: #fff;
+        padding: 5px 41px;
+    }
+    #header .search-btn
+    {
+         display: none;
+    }
+    #header .mobile-menu-btn
+    {
+        display: block;
+    }
+    .s-full-width,
+    .s-col-full
+    {
+        width:100%
+    }
+    .avatar
+    {
+        width: 60%;
+        height: auto;
+    }
+    .place-body
+    {
+        margin-bottom: 20px;
+    }
+    .s-mt8
+    {
+        margin-top: 8px;
+    }
+    .contact-form
+    {
+        margin-top: 32px;
+    }
+}
